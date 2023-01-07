@@ -121,6 +121,6 @@ services:
           connections:
             kafka:
               properties:
-                bootstrap.servers: kafka-1:19092,kafka-2:29092,kafka-3:39092
+                bootstrap.servers: kafka-1:9092,kafka-2:9092,kafka-3:9092
     ports:
       - 8080:8080
