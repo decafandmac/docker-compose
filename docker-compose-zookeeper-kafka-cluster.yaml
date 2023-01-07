@@ -1,5 +1,5 @@
 version: '1.0'
-service:
+services:
   zookeeper-1:
     image: confluentinc/cp-zookeeper:7.2.1
     container_name: zookeeper-1
